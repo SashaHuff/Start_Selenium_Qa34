@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Start" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-15T17:29:13" hostname="LAPTOP-60KTD0SH" time="11.007">
+<testsuite name="Start" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-18T12:36:38" hostname="LAPTOP-60KTD0SH" time="6.883">
   <properties/>
-  <testcase name="start" classname="Start" time="11.007"/>
+  <testcase name="startReg2Success" classname="Start" time="6.883"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1655314153655	geckodriver	INFO	Listening on 127.0.0.1:60414
-1655314154547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64069" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://localhost:64069/" "-no-remote" "-profile" "C:\\Users\\alexa\\AppData\\Local\\Temp\\rust_mozprofileGlhBQh"
-1655314154851	Marionette	INFO	Marionette enabled
-WebDriver BiDi listening on ws://localhost:64069
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alexa\\AppData\\Local\\Temp\\rust_mozprofileGlhBQh\\search.json.mozlz4", (void 0)))
-1655314156561	Marionette	INFO	Listening on port 57536
-DevTools listening on ws://localhost:64069/devtools/browser/5406732b-852f-434c-8e35-9049470d97c7
-Read port: 57536
-1655314156663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jun 15, 2022 8:29:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-1655314158476	geckodriver	INFO	Listening on 127.0.0.1:50441
-1655314158980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49582" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://localhost:49582/" "-no-remote" "-profile" "C:\\Users\\alexa\\AppData\\Local\\Temp\\rust_mozprofilee09Dtg"
-1655314159363	Marionette	INFO	Marionette enabled
-WebDriver BiDi listening on ws://localhost:49582
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alexa\\AppData\\Local\\Temp\\rust_mozprofilee09Dtg\\search.json.mozlz4", (void 0)))
-1655314161151	Marionette	INFO	Listening on port 57568
-DevTools listening on ws://localhost:49582/devtools/browser/bb607b06-1438-4f8d-b90e-03fa8bd5f47e
-Read port: 57568
-1655314161198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Jun 15, 2022 8:29:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1655555799026	geckodriver	INFO	Listening on 127.0.0.1:57523
+1655555800182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65092" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://localhost:65092/" "-no-remote" "-profile" "C:\\Users\\alexa\\AppData\\Local\\Temp\\rust_mozprofilekA0ndz"
+1655555800658	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:65092
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alexa\\AppData\\Local\\Temp\\rust_mozprofilekA0ndz\\search.json.mozlz4", (void 0)))
+1655555803199	Marionette	INFO	Listening on port 54129
+Read port: 54129
+1655555803231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:65092/devtools/browser/d815c38d-67f5-4900-9301-e8d7370d3f47
+Jun 18, 2022 3:36:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
 ]]></system-err>
 </testsuite>

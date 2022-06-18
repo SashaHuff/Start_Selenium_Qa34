@@ -52,6 +52,49 @@ public class Start {
          Assert - testnj library
          */
     }
+
+    @Test
+    public void startReg1Success()
+    {
+        wd = new FirefoxDriver();
+        wd.get("https://contacts-app.tobbymarshall815.vercel.app/home");
+        WebElement loginTab = wd.findElement(By.cssSelector("[href='/login']"));
+        loginTab.click();
+        WebElement emailTextBox = wd.findElement(By.cssSelector("[placeholder='Email']"));
+        emailTextBox.click();
+        emailTextBox.clear();
+        emailTextBox.sendKeys("Test2@gmail.com");
+
+        WebElement passwordTextBox = wd.findElement(By.cssSelector("[placeholder='Password']"));
+        passwordTextBox.click();
+        passwordTextBox.clear();
+        passwordTextBox.sendKeys("Ttest12346$");
+
+        List <WebElement> loginBtn = wd.findElements(By.cssSelector("button"));
+        loginBtn.get(1).click();
+
+    }
+
+    @Test
+    public void startReg2Success()
+    {
+        wd = new FirefoxDriver();
+        wd.get("https://contacts-app.tobbymarshall815.vercel.app/home");
+        WebElement loginTab = wd.findElement(By.cssSelector(".navbar-component_nav__1X_4m>a:last-child"));
+        loginTab.click();
+        WebElement emailTextBox = wd.findElement(By.cssSelector("[placeholder='Email']"));
+        emailTextBox.click();
+        emailTextBox.clear();
+        emailTextBox.sendKeys("Test3@gmail.com");
+
+        WebElement passwordTextBox = wd.findElement(By.cssSelector("[placeholder='Password']"));
+        passwordTextBox.click();
+        passwordTextBox.clear();
+        passwordTextBox.sendKeys("Ttest12347$");
+
+        WebElement loginBtn = wd.findElement(By.cssSelector(".login_login__3EHKB>button:last-child"));
+        loginBtn.click();
+    }
 }
 
 
