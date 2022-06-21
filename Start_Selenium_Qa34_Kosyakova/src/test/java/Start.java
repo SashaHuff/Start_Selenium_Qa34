@@ -70,8 +70,8 @@ public class Start {
         passwordTextBox.clear();
         passwordTextBox.sendKeys("Ttest12346$");
 
-        List <WebElement> loginBtn = wd.findElements(By.cssSelector("button"));
-        loginBtn.get(1).click();
+        List <WebElement> Reg1Btn = wd.findElements(By.cssSelector("button"));
+        Reg1Btn.get(1).click();
 
     }
 
@@ -92,8 +92,8 @@ public class Start {
         passwordTextBox.clear();
         passwordTextBox.sendKeys("Ttest12347$");
 
-        WebElement loginBtn = wd.findElement(By.cssSelector(".login_login__3EHKB>button:last-child"));
-        loginBtn.click();
+        WebElement Reg2Btn = wd.findElement(By.cssSelector(".login_login__3EHKB>button:last-child"));
+        Reg2Btn.click();
     }
 }
 
